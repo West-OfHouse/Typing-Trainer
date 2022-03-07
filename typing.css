@@ -1,0 +1,36 @@
+:root {
+--blue: #2660a4ff;
+--green: #2ba84aff;
+--red: #c73e1dff;
+--yellow: #ffb20fff;
+--gray: #666666;
+--dark-gray: #333333;
+--white: #F5F5F5;
+}
+
+html, body {
+	background-color: var(--dark-gray);
+	overflow: hidden;
+	width: 100vw;
+	height: 100vh;
+	margin: 0px;
+}
+
+
+#sample {
+	font-family: 'Noto Sans', sans-serif;
+	color: var(--white);
+	font-size: 1000%;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	transition: 0.4s;
+	letter-spacing: 10px;
+}
+
+c {
+	color: var(--green);
+	transition: 0.4s;
+}
+
